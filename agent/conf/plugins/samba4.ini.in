@@ -1,0 +1,11 @@
+[main]
+disable = 0
+
+sambaPrefix = /usr
+sambaConfFile = /etc/samba/smb.conf
+sambaDBDir = /var/lib/samba
+
+defaultSharesPath = /home/samba
+# You can specify authorized paths for share creation
+# Default value is the defaultSharesPath value
+# authorizedSharePaths = /shares, /opt, /srv
